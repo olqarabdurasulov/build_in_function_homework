@@ -4,9 +4,14 @@ def main(x, y):
 
     Args:
         x (int): integer
+        
         y (int): integer
         
     Returns:
         int: the value of the expression
     """
-    return
+
+    return pow(x,2)+6*pow(x,3)+3*x*y
+
+x=5
+y=2
